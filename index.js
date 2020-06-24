@@ -81,7 +81,7 @@ function truncateText(text, limit){
    return text.substring(0, shortend);
 }
 function search(searchterm, searchLimit, sortBy){
-        return fetch(`http://www.reddit.com/search.json?q=${searchterm}&sort=${sortBy}&limit=${searchLimit}`)
+        return fetch(`https://www.reddit.com/search.json?q=${searchterm}&sort=${sortBy}&limit=${searchLimit}`)
         //we want response in json
         .then(res => res.json())
         //now we can get the data
