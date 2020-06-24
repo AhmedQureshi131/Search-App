@@ -1,5 +1,5 @@
+<script src="redditApi.js"></script>
 
-reddit = require('./redditApi');
 
 
 const searchForm = document.getElementById('search-form');
