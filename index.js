@@ -1,4 +1,4 @@
-<script src="redditApi.js"></script>
+import reddit from './redditApi';
 
 
 
